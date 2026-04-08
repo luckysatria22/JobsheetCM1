@@ -5,8 +5,8 @@ public class Peminjaman {
     int keterlambatan;
     int denda;
 
-    private static final int BATAS_PINJAM = 5;
-    private static final int DENDA_PER_HARI = 2000;
+    int BATAS_PINJAM = 5;
+    int DENDA_PER_HARI = 2000;
 
     public Peminjaman() {}
 

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class RuangBaca {
 
     Mahasiswa[] listMahasiswa;
@@ -158,12 +156,10 @@ public class RuangBaca {
 
         if (posisi != -1) {
             // Tampilkan semua data dengan NIM tersebut
-            boolean ada = false;
             for (Peminjaman p : sorted) {
                 if (p.mahasiswa.nim.equals(nimCari)) {
                     p.tampilInformasi();
                     System.out.println("----------------------------------------");
-                    ada = true;
                 }
             }
         } else {
